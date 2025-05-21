@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Pawan Mahesh</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Animation -->
+    <div class="background-animation">
+        <div class="gradient-blob"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">PM</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="skills.html">Skills</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>A showcase of my work and experience</p>
+        </div>
+    </header>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="system">System</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-showcase">
+        <div class="container">
+            <div class="projects-grid">
+                <div class="project-item" data-category="web" id="hospital">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-hospital"></i>
+                            </div>
+                            <h3>Hospital Management System</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A web-based hospital management system for patient records and appointments.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://pawan-is-here.github.io/Hospital-Management-System/appointments.html" class="btn secondary-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="system" id="library">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <h3>Library Management System</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A comprehensive system for managing library resources, borrowing, and returns.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>SQL</span>
+                                <span>JDBC</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="system">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Hardware Store Management</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A system for inventory management and sales tracking for hardware stores.</p>
+                            <div class="project-tech">
+                                <span>C</span>
+                                <span>File Handling</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="design" id="ride">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-car"></i>
+                            </div>
+                            <h3>Ride Booking App</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>UX/UI design for a ride booking mobile application with user-friendly interface.</p>
+                            <div class="project-tech">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>UI/UX</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="system">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <h3>Quiz Game</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>An interactive quiz application with multiple categories and difficulty levels.</p>
+                            <div class="project-tech">
+                                <span>Java</span>
+                                <span>Swing</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="system">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i class="fas fa-hotel"></i>
+                            </div>
+                            <h3>Hotel Management System</h3>
+                        </div>
+                        <div class="project-body">
+                            <p>A comprehensive system for hotel operations, bookings, and customer management.</p>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>SQLite</span>
+                                <span>Tkinter</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/pawan-is-here" class="btn text-btn" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Process Section -->
+    <section class="project-process">
+        <div class="container">
+            <h2 class="section-title">My Project Process</h2>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Research & Planning</h3>
+                        <p>Understanding requirements, researching solutions, and planning the architecture.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Design & Prototype</h3>
+                        <p>Creating wireframes, designing interfaces, and building interactive prototypes.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Development</h3>
+                        <p>Writing clean, efficient code and implementing the planned features.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Testing & Refinement</h3>
+                        <p>Thorough testing, debugging, and refining the solution based on feedback.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Deployment & Maintenance</h3>
+                        <p>Deploying the solution and providing ongoing support and improvements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have a project in mind?</h2>
+            <p>Let's collaborate and bring your ideas to life</p>
+            <a href="contact.html" class="btn primary-btn">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Pawan Mahesh</h3>
+                    <p>Computer Science Student & Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/pawan-is-here" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/pawan-mahesh" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:pawanmahesh04@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Pawan Mahesh. All rights reserved.</p>
+                <div id="viewCountContainer">
+                    <i class="fas fa-eye"></i> Visitors: <span id="viewCount">0</span>
+                    <span id="plusOne" class="plus-one">+1</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/background-animation.js"></script>
+    <script src="js/view-counter.js"></script>
+</body>
+</html>
