@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Typewriter Effect
   const typewriterText = document.getElementById("typewriter-text")
   if (typewriterText) {
-    const phrases = ["Web Developer", "Problem Solver", "Tech Enthusiast", "UI/UX Designer"]
+    const phrases = ["Web Developer", "UI/UX Designer", "Tech Enthusiast", "Problem Solver"]
 
     let phraseIndex = 0
     let charIndex = 0
